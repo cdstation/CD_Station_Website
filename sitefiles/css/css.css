@@ -1,0 +1,710 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 0px;
+    background: rgb(110, 110, 110);
+		margin:0px;
+		/*background-image: url(../pictures/sc/Bg1.jpg);
+		background-repeat: repeat;
+		background-size: 400px;*/
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 4px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    margin:20px;
+    border-radius: 10px;
+		border: 10px solid black;
+}
+
+.navitem{
+     border-radius: 5px;
+   /*background-color: rgb(200, 200, 200);
+     padding: 10px 10px 10px 10px;*/
+     margin: 5px;
+     text-decoration: none;
+     font-size: 24px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+}
+
+.picture {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+	   margin: 20px;
+		 border: 10px solid black;
+     border-radius: 10px;
+}
+
+a {
+	word-wrap: break-word;
+}
+
+html {
+	scroll-behavior: smooth;
+	sa ramana? scos si de la transmissions_podcasts.html
+}
+
+.card p {
+	 text-align: justify;
+     text-justify: inter-word;	
+}
+
+.line {
+	color: rgb(123, 123, 123);
+}
+
+.blogpost {
+	font-size: 24px;
+	font-family: Gill Sans;
+	font-weight: 500;
+}
+
+.blogpicture {
+	width: 75%; 
+	margin-left: 12.5%;
+}
+
+.follow {
+	border: 3px solid black;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 140px;
+	border-radius: 4px;
+	color: #fff;
+	transition: 0.7s;
+	font-size: 1.1vw;
+	background-color: #FB0019;
+}
+
+.pagena {
+	padding: 4px;
+	margin: 3px;
+	border: 3px solid rgb(210, 210, 210);
+	border-radius: 4px;
+	border-top-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 7px;
+	transition: 0.4s;
+	line-height: 39px;
+	vertical-align: middle;
+	font-size: 21px;
+	text-decoration: none;
+	z-index: 1020;
+}
+
+.pagena:hover {
+	border: 3px solid rgb(234 ,234, 234);
+	color: rgb(150, 150, 150);
+}
+
+.before {
+	background-color: rgba(0, 0, 0, 0);
+	height: 25px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1020;
+	transition: 0.05s;
+}
+
+.before:hover {
+	background-color: rgb(255, 255, 255);
+	background-image: url("../../pictures/sc/Sounds_Sc_1.jpg");
+	background-size: 890px;
+	/*background-repeat: no-repeat;*/
+	height: 30px;
+	border-bottom: 5px solid black;
+}
+
+.before4 {
+	color: rgba(0, 0, 0, 0);
+	width: 100%;
+	margin: 0px;
+	height: 100%;
+}
+
+.before4:hover {
+	color: rgb(170, 14, 140);
+	font-size: inherit;
+}
+
+.blogpiclarge {
+	width: 70%; 
+	margin-left: 15%;
+	border-radius: 20px;
+}
+
+.top {
+	border: 0.1rem solid rgb(50, 50, 50); 
+	padding: 5px 10px; 
+	border-radius: 10px;
+	font-size: 35px; 
+	transition: 0.4s;
+	background-color: rgb(250, 250, 250); 
+	text-decoration: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.top:hover {
+	background-color: rgb(250, 250, 250);
+	color: rgb(0, 0, 0);
+	border: 0.1rem solid rgb(255, 0, 0); 
+}
+
+.fixed {
+	margin-left: 87%;
+	bottom: 0;
+	position: fixed;
+	z-index: 1020;
+	margin-bottom: 50px;
+}
+
+.separator {
+	height: 0px;
+}
+
+.follow:hover {
+	border: 3px solid black;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #000;
+	border-radius: 4px;
+	background-color: rgb(230, 4, 4);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#radi {
+	height: 15vw; 
+	width: 23vw; 
+	margin-left: 5%; 
+	margin-top: 11%; 
+	position: absolute; 
+	z-index: 1020; 
+	background-color: rgb(125, 125, 125); 
+	border: 0.9vw solid black; 
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.nav {
+   	 background-color: white;
+	 	 width: 100%;
+	 	 height: 4em;
+   	 border-radius: 0px 0px 30px 30px;
+	 	 position: 0px;
+ 	 	 top: 0px;
+	 	 position: fixed;
+	 	 z-index: 1020;
+	 	 padding: 0px;
+	 	 margin: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* fter */
+.fter {
+	width: 100%;
+    text-align: center;
+    background-image: url(../../pictures/sc/CD_Fter.png);
+    background: #ddd;
+    margin-top: 20px;
+	height: 10vw;
+}
+
+
+#headr	{
+	top: 0px;
+	padding: 0px;
+	border: 10px solid black;
+	border-top: none;
+	background-image: url(../../pictures/sc/gif/Bnnr.gif);
+	background-repeat: repeat-x;
+	background-size: 500px;
+	border-radius: 10px;
+	border-top: 10px solid black;
+	z-index: 1020;
+	margin: 0px;
+	margin-left: 32.5%;
+	width: 35%;
+	height: 43px;
+}
+
+/* pages links */
+
+.pages a {
+    color: black;
+    float: center;
+    padding: 8px 16px;
+    margin: 0px 0px 20px 0px;
+    text-decoration: none;
+		background-color: #ffffff;
+    transition: background-color .3s;
+		border-radius: 10px;	
+		border: 5px solid black;
+}
+
+/* Style the active/current link */
+.pages a.active {
+    background-color: grey;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pages a:hover:not(.active) {background-color: #ddd;}
+
+.ftritem {
+	margin: 0px;
+	text-align: center;
+	padding: 1px;
+	background-color: #ddd;
+	padding-top: 2px;
+	background-color: #ddd;
+	width: 100%;
+	font-size: 17px;	
+	display: inline;
+}
+
+.host {
+	font-size: 20px;
+}
+
+.blog {
+	font-size: 24px;
+	text-align: center;
+}
+
+.picrght {
+	width:100%; 
+	border-radius: 2vw;
+}
+
+.song {
+	width: 50%;
+}
+
+.blogtext {
+	font-size: 17px;
+}
+
+.blogpic {
+	width: 50%; 
+	border-radius: 0px;
+	margin-left: 25%;
+}
+
+.picture {
+	width: 23%;
+	padding: 0px;
+	border-radius: 4px;
+	transition: 0.4s;
+}
+
+.picture:hover {
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 4), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+#flm {
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    top: 51%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#station {
+width: 50vw;
+}
+
+.scpic	{
+	width:150px;
+}
+
+.scflm {
+	width: 25%;
+}
+
+@media screen and (max-width: 1290px) {
+	#radim {
+		display: none;
+	}
+	#radi {
+		position: relative;
+		width: 100%;
+		margin-left: 0px;
+		height: 520px;
+		margin-top: 20px;
+	}
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+
+    .separator {
+	height: 30px;
+}
+    .header {
+	padding: 4px;
+  	font-size: 31px;
+ 	text-align: center;
+  	background: white;
+	margin:20px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+    }
+    .navitem {
+		font-size: 4vw;
+    }
+		.ftritem {
+				font-size: 25px;
+				background-color: #ddd;
+				width: 100%;	
+				display: block;
+		}
+
+		.intar {
+			font-size: 20px;
+	}
+
+	.before {
+		display: none;
+	}
+
+	#headr	{
+		display: none;	
+	}
+	.scpic	{
+		width: 70px;
+	}
+	.picrght {
+		width: 50%;
+		margin-left: 25%;
+		}
+.blogpic {
+		width: 90%;
+		margin-left: 5%;
+		}	
+	.blog {
+	font-size: 5vw;
+}
+	#blogtextindex {
+		display: none;
+	}
+
+	.blogpostwebsites {
+		text-align: center;
+	}
+	.blogpiclarge {
+		width: 90%; 
+		margin-left: 5%;
+	}
+
+} 
+
+.pictureblog {
+	border: 3px solid rgb(240, 240, 240); 
+	background-color: rgb(250, 250, 250);
+	border-radius: 4px; 
+	font-size: 14px;
+}
+
+@media screen and (max-width: 1254px) {
+.song {
+		width: 100%;
+		margin: 1px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+.picenter {
+	width: 35%;
+	margin-left: 32.5%;
+	}
+.picrght {
+	width: 20%;
+	margin-left: 40%;
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+}
+
+
+@media screen and (min-width: 670px) {
+		.ftritem {		
+				display: inline;
+				font-size: 17px;
+		}
+		
+
+} 
+
+
+
+@media screen and (min-width: 1570px) {
+		#headr {
+		display: none;
+	}/* set 150 in zom, sa se vada */
+} 
+
+@media screen and (max-width: 600px) {
+		#station {
+		width: 100%;	
+	}
+	.blog {
+	font-size: 24px;
+}
+	.ftritem {
+				font-size: 20px;
+
+}	
+.fixed {
+		margin-left: 82%;
+}
+.card {
+	margin: 7px;
+}
+.header {
+	margin: 7px;
+	margin-bottom: 10px;
+}
+
+.blogpost {
+		font-size: 21px;
+		text-justify: inter-word;
+	}
+	.blogpiclarge {
+		width: 90%; 
+		margin-left: 5%;
+	}
+
+.scflm {
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+.socialframediv {
+	display: none;
+	}
+}
+
+.blogtipe {
+	text-decoration: none; 
+	padding: 4px 10px 4px 10px;
+	border: 1px dotted rgb(170, 170, 170);
+	border-radius: 40px; 
+	line-height: 39px;
+	color: rgb(110, 17, 170);
+	transition: 0.5s;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+.blogseparator {
+	font-family: Courier; 
+	font-size: 20px; 
+	color: rgb(145, 145, 145);
+	line-height: 7px;
+}
+
+.blogtipe:hover {
+	text-decoration: none; 
+	padding: 4px 10px 4px 10px;
+	border: 1px solid rgb(170, 17, 170);
+	border-radius: 40px; 
+	line-height: 39px;
+	color: black;
+	font-size: 15px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1	px 0 rgba(0, 0, 0, 0.19);
+}
+
+.codesnippet {
+	background-color: rgb(230, 230, 230); 
+	padding: 20px; 
+	padding-top: 4px;
+	padding-bottom: 4px; 
+	border: 3px solid black; 
+	border-radius: 10px;
+	font-size: 14px;
+	font-family: Courier;
+	line-break: strict; 
+}
+
+.blogitem {
+	font-size: 20px; 
+	text-decoration: none; 
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.blogitem:hover {
+	color: rgb(150, 150, 150);
+}
+
+.share {
+	text-align: center; 
+	width: 100%; 
+	background-color: rgb(240, 240, 240); 
+	padding: 20px; 
+	border-radius: 20px; 
+	border: 3px solid black;
+}
+
+.attention {
+	text-align: center; 
+	width: 100%; 
+	background-color: rgb(240, 240, 240); 
+	padding: 20px; 
+	border-radius: 20px; 
+	border: 3px solid rgb(170, 170, 170);
+}
+
+.code {
+	font-family: Courier;
+	font-size: 21px;
+}
+
+.bold {
+	color: #FB0019;
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+
+.ptext {
+	font-family: Courier; 
+	background-color: rgb(214, 214, 214); 
+	padding: 5px; 
+	line-height: 37px; 
+	padding-left: 17px; 
+	padding-right: 17px;
+	border-radius: 20px;
+	border: 3px solid rgb(14, 14, 14);
+}
+
+@media screen and (max-width: 500px) {
+.picsp {
+			display: block;
+		}
+	.picture {
+		width:100%;	
+	}    .navitem {
+		font-size: 4.97vw;
+    }
+    .picenter {
+	width: 90%;
+	margin-left: 5%;
+	}
+    .picrght {
+	width: 90%;
+	margin-left: 5%;
+	}
+	.lastdown {
+		margin-bottom: 50px;
+	}
+	.blogpiclarge {
+		width: 90%; 
+		margin-left: 5%;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+.socialframediv {
+	display: inherit;
+	}
+}
+
+.blogpostul {
+	padding: 4px 10px 4px 10px;
+	border: 3px solid #FB0019;
+	border-radius: 40px;
+	line-height: 37px;
+}
+
+
+
+.blogposts {
+	font-size: 20px; 
+	padding: 20px; 
+	border: 3px solid #FB0019;
+	border-radius: 140px; 
+	transition: 0.7s;
+	display: inline-block; 
+	text-decoration: none;
+}
+
+.blogposts:hover {
+	font-size: 20px; 
+	padding: 20px; 
+	border-radius: 140px; 
+	color: rgb(145, 145, 145);
+	display: inline-block; 
+	text-decoration: none;
+}
+.socialframe {
+	width: 100%;
+	height: 100%;
+}
+
+.withoutwrap {
+	word-wrap: none;
+}
+
