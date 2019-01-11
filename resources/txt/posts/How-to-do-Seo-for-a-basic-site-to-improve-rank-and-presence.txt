@@ -1,0 +1,138 @@
+How to do Seo for a basic site to improve rank and presence
+
+
+So, how do you Seo?
+
+Well, in order to obtain great stats with you Seo, you have to:
+
+1. Research content
+
+2. Respect Seo rules
+
+3. Place a lot of Redirrects
+
+4. Update and Upgrade
+
+
+1. Research Content
+
+⇢ Did you know that only 1/10 people go past the 1st page of the search results? Well, that is a fact.
+
+In order to get on the 1st page, you have to find yourself a nieche. Search online until you find a query for which not much related content is shown.
+
+Info - The query is what you have searched for, the search phrase
+Then, get that query and place it as the title of your blogpost / content you are making. The title tag is the most definitive tag on the webpage.
+
+Also, make sure that you only have 1 h1 tag on a webpage, with the same name as the title.
+
+
+2. Respect Seo rules
+
+Now, I will give you my Seo rules that I think sum up what you have to know to get the stats you want.
+ 
+
+
+Seo Rules:
+
+- Long text in the title tag
+
+- Same long text in the h1 tag
+
+- Only 1 meta description (with the meta tag, 177 characters)
+
+- Resize pictures (to get loading time under 3 s) 
+
+- Enable Caching 
+
+- Make your content fast to read (1 - 2 lines a paragraph)
+
+- Make a "Don't leave our website" dialog
+
+- Have a great phone version of your website
+
+- Make sure that your website is https
+
+- Do not put "#"-s in Url-s
+
+- Make a mailing list (newsletter) 
+
+- Integrate Social Media 
+
+- Redirrect to yourself (to different posts that you have)
+
+- Place alt tags on your pictures (in the html code)
+
+- Make films, mp4-s (they show in search a lot) 
+
+- Study large blogs in your niche
+
+- Update and Upgrade the posts you make
+
+- Replace underscores _ with hyphens -
+
+- Click bait (but not really sensessly)
+
+- Make a lot of blog posts
+
+- Put rel="cannonical" on href-s that redirrect
+
+- Heading tags should be 15 to 65 characters long.
+
+- Don't have more than 100 internal redirrects on 1 page
+
+- Use search inputs to find long-tailed tags (so long text for your title and h1 tag)
+
+- Put numerical data in your pages titles. Also, put How to and specific phrases
+
+- Make a lot of content (cover as much tags as possible) Make it great. 
+
+- Put a symbol character in your title (⇢)
+
+- Make a blog, they help you get people to your website 
+
+- Respond to every comment and comment a lot (by also placing redirrects).
+
+- Make a blog, they help you provide content and get people to your website
+
+- Make a blog, they help you provide content and get people to your website
+
+- Make a blog, they help you provide content and get people to your website
+
+
+
+Make sure that the content is readable, that the font is large and that the phrases are ok.
+
+Also, communicate ideas as if you were talking to a relative, make yourself sound pleasant, not chunky. Verify what you have made.
+
+
+3. Place a lot of redirrects
+
+As getting to the 1st page is not possible in most cases, you have to redirrect to your content.
+
+
+
+So, you have to:
+
+- Comment and post on social media and online chats
+
+- Guest post and send messages on social media and on email.
+
+
+
+Redirrect to yourself, to your content to have people stay on your website.
+
+Redirrect to pictures, social media, but make sure that they stay on your website.
+
+
+4. Update and Upgrade
+
+Now, you always learn more, right? Update to have your content match your knowledge. Great content is what people come and stay for.
+
+Place pictures in your content (also films), they help. Your content has to be impecable.
+
+Make sure that you check on your stats to know how you are doing. It really helps you know what is going right, also what to improve. This is called A/B testing.
+
+Make sure that you make content for people 1st and for Seo 2nd.
+
+So, make sure to follow the rules of Seo to get a lot of stats.
+
